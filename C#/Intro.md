@@ -10,13 +10,13 @@
 ## Looping Statement
 
 ```bash
-~~ for loop ~~
+-- for loop --
 for (int i = 0; i < 5; i++)
 {
     Console.WriteLine(i);
 }
 
-~~ while loop ~~
+-- while loop --
 int j = 0;
 while (j < 5)
 {
@@ -24,7 +24,7 @@ while (j < 5)
     j++;
 }
 
-~~ do-while loop ~~
+-- do-while loop --
 int k = 0;
 do
 {
