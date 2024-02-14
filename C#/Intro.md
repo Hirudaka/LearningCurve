@@ -62,6 +62,13 @@ int result = square(5); // result = 25
 int[] numbers = { 1, 2, 3, 4, 5 };
 Console.WriteLine(numbers[0]); // Output: 1
 
+-- multi dimentional arrays --
+//Declaration & initialization of a 2D array
+int[,] matrix = { { 1, 2, 3 }, { 4, 5, 6 } };
+
+//Accessing elements
+int element = matrix[1, 2]; // Accessing element at row 1, column 2 (value: 6)
+
 ```
 
 ## Methods
@@ -73,6 +80,25 @@ int Add(int x, int y)
 
 // Method invocation
 int result = Add(3, 4); // result = 7
+
+--overloading methods --
+static int PlusMethodInt(int x, int y)
+{
+  return x + y;
+}
+
+static double PlusMethodDouble(double x, double y)
+{
+  return x + y;
+}
+
+static void Main(string[] args)
+{
+  int myNum1 = PlusMethodInt(8, 5);
+  double myNum2 = PlusMethodDouble(4.3, 6.26);
+  Console.WriteLine("Int: " + myNum1);
+  Console.WriteLine("Double: " + myNum2);
+}
 
 ```
 
