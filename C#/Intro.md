@@ -1,11 +1,27 @@
 # </ C# >
 
 ## Thing to Know..
+- C# was developed by Microsoft and first released in 2000 as part of the .NET framework.
 - Case sensitive , use {} for code blocks and ; to end lines.
 - Best IDE to use -> visual studio , JetBrains Rider
 - Mostly used with .NET framework(Windows-based applications) or .NET core(cross-platform, open-source framework cloud based applications)
 - ? operater used to allow value types to be nullable
 - Most syntaxas are similar to C,C++ and Java
+- C# introduced the async and await keywords to simplify asynchronous programming
+
+## Simple Hello World 
+```bash
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, world!");
+    }
+}
+
+```
 
 ## Looping Statement
 
@@ -116,6 +132,36 @@ Person person1 = new Person();
 person1.Name = "Alice";
 person1.Age = 30;
 
+
+------ multiple objects ------
+class Car
+{
+  string color = "red";
+  static void Main(string[] args)
+  {
+    Car myObj1 = new Car();
+    Car myObj2 = new Car();
+    Console.WriteLine(myObj1.color);
+    Console.WriteLine(myObj2.color);
+  }
+}
+
 ```
 
-## 
+## Math
+```bash
+// find the highest value of x and y
+Math.Max(5, 10);
+
+// find the lowest value of of x and y
+Math.Min(5, 10);
+
+//returns the square root of x
+Math.Sqrt(64);
+
+//returns the absolute (positive) value of x
+Math.Abs(-4.7);
+
+//rounds a number to the nearest whole number
+Math.Round(9.99);
+```
