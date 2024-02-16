@@ -26,3 +26,24 @@ cout << "Type your first name: ";
 cin >> firstName; // get user input from the keyboard
 cout << "Your name is: " << firstName;
 ```
+
+## Pointers
+- Pointers are variables that store memory addresses. They are denoted by "*"
+
+```bash
+```Declaring a Pointer```
+
+int* ptr = &num;
+
+```Initializing a pointer```
+int num = 10;
+int* ptr = &num; // Initializes ptr with the address of num
+
+```Deferencing Pointers```
+-Dereferencing a pointer means accessing the value stored at the memory address it points to.
+-You use the dereference operator * to access the value
+
+int num = 10;
+int* ptr = &num;
+cout << *ptr; // Prints the value stored at the memory address pointed to by ptr (i.e., prints 10)
+```
