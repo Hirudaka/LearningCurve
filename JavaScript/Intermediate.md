@@ -19,7 +19,9 @@
 <body>
 <h2>JavaScript Objects</h2>
 <p id="demo"></p>
+
 <script>
+
 // Animal properties and method encapsulation
 const Animal = {
 type: "Invertebrates", //Default value of properties
@@ -28,13 +30,16 @@ displayType() {
 console.log(this.type);
 },
 };
+
 // Create new animal type called animal1
 const animal1 = Object.create(Animal);
 animal1.displayType(); // Logs: Invertebrates
+
 // Create new animal type called fish
 const fish = Object.create(Animal);
 fish.type = "Fishes";
 fish.displayType(); // Logs: Fishes
+
 </script>
 </body>
 ```
@@ -79,6 +84,7 @@ document.write(mycar.present());
 <h2>JavaScript Closure</h2>
 
 <p id="demo"></p>
+
 <script>
 function greeting() {
 let message = 'Hello Im Hirudaka';
@@ -90,6 +96,7 @@ return sayHi;
 let hi = greeting();
 hi(); // still can access the message variable'
 </script>
+
 </body>
 </html>
 ```
@@ -104,6 +111,7 @@ hi(); // still can access the message variable'
 <body>
     <h2>JSON Placeholder API</h2>
     <p id="demo"></p>
+
     <script>
     //https://jsonplaceholder.typicode.com/
     //Free fake API for testing and prototyping.
@@ -111,6 +119,7 @@ hi(); // still can access the message variable'
     .then(response => response.json())
     .then(json => console.log(json))
     </script>
+
 </body>
 </html>
 ```
