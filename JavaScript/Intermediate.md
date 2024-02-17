@@ -24,11 +24,11 @@
 
 // Animal properties and method encapsulation
 const Animal = {
-type: "Invertebrates", //Default value of properties
-displayType() {
-// Method that display type of Animal
-console.log(this.type);
-},
+    type: "Invertebrates", //Default value of properties
+    displayType() {
+        // Method that display type of Animal
+        console.log(this.type);
+    },
 };
 
 // Create new animal type called animal1
@@ -87,11 +87,11 @@ document.write(mycar.present());
 
 <script>
 function greeting() {
-let message = 'Hello Im Hirudaka';
-function sayHi() {
-console.log(message);  //'hello im hirudaka' output
-}
-return sayHi;
+    let message = 'Hello Im Hirudaka';
+    function sayHi() {
+        console.log(message);  //'hello im hirudaka' output
+    }
+    return sayHi;
 }
 let hi = greeting();
 hi(); // still can access the message variable'
