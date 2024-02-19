@@ -1,8 +1,13 @@
-</ # JavaScript - Beginner >
+# </ JavaScript - Beginner >
+
+Written By - Hirudaka Kumarasinghe
 
 ## Variables
 
 - **"var**" , **"let**" and **"const"** variables try their behaviors.
+- ```var``` was the original way to declare variables in JavaScript.
+- ```const``` are variables that cannot be reassigned.
+- Variables declared with ```let``` are accessible only within the ***block {}*** in which they are declared.
 
 ```bash
 <!DOCTYPE html>
@@ -52,4 +57,67 @@ a = {
 ```
 
 ## Classes
-- Create a class and, define a method inside the class, after that, create an object from the class and execute the methods.
+
+- The ```this``` keyword refers to an object.
+- Which object depends on how this is being invoked (used or called).
+- The ```this``` keyword refers to different objects depending on how it is used:
+
+> - Creating a class and, define a method inside the class, after that, create an object from the class and execute the methods.
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+//In an object method, this refers to the object.
+class Car {
+    constructor(name) {
+    this.brand = name;
+    }
+        present() {
+            return 'I have a ' + this.brand;
+        }
+    }
+const mycar = new Car("Ford");
+document.write(mycar.present());
+
+</script>
+</body>
+</html>
+```
+
+### Class Inheritance
+
+```bash
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+class Car {
+  constructor(name) {
+  this.brand = name;
+  }
+  present() {
+  return 'I have a ' + this.brand;
+  }
+}
+class Model extends Car {
+  constructor(name, mod) {
+    super(name);
+    this.model = mod;
+  } 
+  show() {
+    return this.present() + ', it is a ' + this.model
+  }
+}
+const mycar = new Model("Ford", "Mustang");
+document.write(mycar.show());
+
+</script>
+</body>
+</html>
+```
+
+
