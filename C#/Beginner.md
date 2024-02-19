@@ -1,4 +1,6 @@
-# </ C# >
+# </ C# - Beginner>
+
+### Written By - Hirudaka Kumarasinghe
 
 ## Thing to Know..
 >- C# was developed by Microsoft and first released in 2000 as part of the .NET framework.
