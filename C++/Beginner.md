@@ -1,5 +1,7 @@
 # </ C++ >
 
+### Written By - Hirudaka Kumarasinghe
+
 ## Thing to Know..
 >- C++ developed as an extention to C language in 1985
 >- Introduced the concept of ```classes and objects```, ```inheritance```, ```encapsulation```, and ```polymorphism```
