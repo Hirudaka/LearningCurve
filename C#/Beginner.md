@@ -3,13 +3,13 @@
 ### Written By - Hirudaka Kumarasinghe
 
 ## Thing to Know..
->- C# was developed by Microsoft and first released in 2000 as part of the .NET framework.
->- Case sensitive , use {} for code blocks and ; to end lines.
->- Best IDE to use -> visual studio , JetBrains Rider
->- Mostly used with .NET framework(Windows-based applications) or .NET core(cross-platform, open-source framework cloud based applications)
->- ? operater used to allow value types to be nullable
->- Most syntaxas are similar to C,C++ and Java
->- C# introduced the async and await keywords to simplify asynchronous programming
+- C# was developed by Microsoft and first released in 2000 as part of the .NET framework.
+- Case sensitive , use {} for code blocks and ; to end lines.
+- Best IDE to use -> visual studio , JetBrains Rider
+- Mostly used with .NET framework(Windows-based applications) or .NET core(cross-platform, open-source framework cloud based applications)
+- ? operater used to allow value types to be nullable
+- Most syntaxas are similar to C,C++ and Java
+- C# introduced the async and await keywords to simplify asynchronous programming
 
 ## Simple Hello World 
 ```bash
