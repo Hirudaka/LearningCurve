@@ -1,6 +1,6 @@
 # </ JavaScript - Beginner >
 
-Written By - Hirudaka Kumarasinghe
+### Written By - Hirudaka Kumarasinghe
 
 ## Variables
 
