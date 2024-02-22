@@ -1,14 +1,16 @@
 # </ JavaScript >
 
+### Written By - Hirudaka Kumarasinghe
+
 ## Things to Know
->- Commonly Known as the programming language of the Web.
->- Consistently ranked as one of the most in-demand programming languages in the job market.
->- ```JavaScript Object Notation (JSON)``` is a lightweight data interchange format inspired by JavaScript object syntax.
->- **Runs Everywhere** - JavaScript is a ```multi-paradigm language``` that can run not only in web browsers but also on servers, mobile devices, IoT devices, and more.
->- JavaScript uses ```prototypal inheritance``` rather than ```classical inheritance```. (objects can directly inherit from other objects, allowing for flexible and powerful object-oriented programming)
->- Dynamically typed, meaning variable types are determined at runtime rather than compile time. (provides flexibility but can also lead to errors if types are not handled properly)
->- JavaScript is essential for creating dynamic web content, such as interactive forms, animations, games, and real-time updates.
->- Has a rich ecosystem of libraries and frameworks( React, Angular, and Vue.js for front-end development and Express.js for back-end development)
+- Commonly Known as the programming language of the Web.
+- Consistently ranked as one of the most in-demand programming languages in the job market.
+- ```JavaScript Object Notation (JSON)``` is a lightweight data interchange format inspired by JavaScript object syntax.
+- **Runs Everywhere** - JavaScript is a ```multi-paradigm language``` that can run not only in web browsers but also on servers, mobile devices, IoT devices, and more.
+- JavaScript uses ```prototypal inheritance``` rather than ```classical inheritance```. (objects can directly inherit from other objects, allowing for flexible and powerful object-oriented programming)
+- Dynamically typed, meaning variable types are determined at runtime rather than compile time. (provides flexibility but can also lead to errors if types are not handled properly)
+- JavaScript is essential for creating dynamic web content, such as interactive forms, animations, games, and real-time updates.
+- Has a rich ecosystem of libraries and frameworks( React, Angular, and Vue.js for front-end development and Express.js for back-end development)
 
 ## Objects
 - In JavaScript, an object is a standalone entity, with properties and type.
