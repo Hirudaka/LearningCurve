@@ -31,3 +31,18 @@
 - Class: User-defined blueprint from which objects are created. It consists of methods or sets of instructions that are to be performed on the objects.
 - Structure: A structure is basically a user-defined collection of variables which are of different data types.
 
+7. What is inheritance?
+
+- Inheritance is a feature of OOPs which allows classes to inherit common properties from other classes. For example, if there is a class such as 'vehicle', other classes like 'car', 'bike', etc can inherit common properties from the vehicle class. This property helps you get rid of redundant code thereby reducing the overall size of the code.
+
+8. What are the different types of inheritance?
+
+- Single inheritance
+- Multiple inheritance
+- Multilevel inheritance
+- Hierarchical inheritance
+- Hybrid inheritance
+
+10. What is the difference between multiple and multilevel inheritance?
+
+
