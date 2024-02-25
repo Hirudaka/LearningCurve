@@ -45,4 +45,9 @@
 
 10. What is the difference between multiple and multilevel inheritance?
 
+11. What is hierarchical inheritance?
+
+- Hierarchical inheritance refers to inheritance where one base class has more than one subclass. For example, the vehicle class can have 'car', 'bike', etc as its subclasses.
+
+
 
