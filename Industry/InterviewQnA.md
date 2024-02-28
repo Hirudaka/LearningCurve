@@ -64,6 +64,11 @@
 
 - A superclass or base class is a class that acts as a parent to some other class or classes. For example, the Vehicle class is a superclass of class Car.
 
+15. What is a subclass?
+
+- A class that inherits from another class is called the subclass. For example, the class Car is a subclass or a derived of Vehicle class
+
+
 
 
 
