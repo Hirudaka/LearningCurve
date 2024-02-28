@@ -49,5 +49,21 @@
 
 - Hierarchical inheritance refers to inheritance where one base class has more than one subclass. For example, the vehicle class can have 'car', 'bike', etc as its subclasses.
 
+12. In computer science, what is algorithms ?
+
+- Algorithms are a set of instructions for solving some problem, step-by-step. providing clear instructions on what to do.
+
+13. What are the limitations of inheritance?
+
+- Increases the time and effort required to execute a program as it requires jumping back and forth between different classes
+- The parent class and the child class get tightly coupled
+- Any modifications to the program would require changes both in the parent as well as the child class
+- Needs careful implementation else would lead to incorrect results.
+
+14. What is a superclass?
+
+- A superclass or base class is a class that acts as a parent to some other class or classes. For example, the Vehicle class is a superclass of class Car.
+
+
 
 
