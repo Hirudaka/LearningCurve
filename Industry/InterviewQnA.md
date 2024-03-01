@@ -5,7 +5,7 @@
 ## Basic Level
 
 1. What is object orient programming ?
-- Object-Oriented Programming (OOPs) is a type of programming that is based on objects rather than just functions and procedures. Individual object are grouped into classes. OOPs implement real-world entities like inheritance, polymorphism, hiding, etc into programming. It also allows binding data and code together. 
+- Object-Oriented Programming (OOPs) is a type of programming that is based on objects rather than just functions and procedures. Individual object are grouped into classes. OOPs implement real-world entities like inheritance, polymorphism, hiding, etc into programming. It also allows binding data and code together.
 
 2. Why use OOPs? OR Advantages of OOP ?
 - OOPS allows clarity in programming thereby allowing simplicity in solving complex problems
