@@ -66,7 +66,19 @@
 
 15. What is a subclass?
 
-- A class that inherits from another class is called the subclass. For example, the class Car is a subclass or a derived of Vehicle class
+- A class that inherits from another class is called the subclass. For example, the class Car is a subclass or a derived of Vehicle class.
+
+16.  What is polymorphism?
+
+- Polymorphism refers to the ability to exist in multiple forms. Multiple definitions can be given to asingle interface. For example, if you have a class named Vehicle. it can have a method named speed but you cannot define it because different vehicles have different speeds. This method will be defined in the subclasses with different definitions for different vehicles.
+
+17.  What is function/method overloading?
+
+- Method overloading is a feature of OOPs which makes it possible to give the same name to more than one method within a class if the arguments passed differ.
+
+18. What is function/method overriding?
+
+- Method overriding is a feature of OOPs by which the child class or the subclass can redefine methods present in the base class or parent class. Here. the method that is overridden has the same name as well as the signature meaning the arguments passed and the return type.
 
 
 
