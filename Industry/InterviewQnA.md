@@ -80,11 +80,11 @@
 
 - Method overriding is a feature of OOPs by which the child class or the subclass can redefine methods present in the base class or parent class. Here. the method that is overridden has the same name as well as the signature meaning the arguments passed and the return type.
 
-19. 22. What is encapsulation?
+19. What is encapsulation?
 
 - Encapsulation refers to binding the data and the code that works on that together in a single unit. For example, a class. Encapsulation also allows data-hiding as the data specified in one class is hidden from other classes.
 
-23. What is data abstraction?
+20. What is data abstraction?
 
 - Data abstraction is a very important feature of OOPs that allows displaying only the important information and hiding the implementation details. For example, while riding a bike. you know that if you raise the accelerator. the speed will increase, but you don't know how it actually happens. This is data abstraction as the implementation details are hidden from the rider.
 
