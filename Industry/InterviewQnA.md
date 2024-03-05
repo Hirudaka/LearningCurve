@@ -88,6 +88,17 @@
 
 - Data abstraction is a very important feature of OOPs that allows displaying only the important information and hiding the implementation details. For example, while riding a bike. you know that if you raise the accelerator. the speed will increase, but you don't know how it actually happens. This is data abstraction as the implementation details are hidden from the rider.
 
+21. What is an abstract class?
+
+- An abstract class is a class that consists of abstract methods. These methods are basically declared but not defined. If these methods are to be used in some subclass, they need to be exclusively defined in the subclass.
+
+22. What is a constructor?
+
+- A constructor is a special type of method that has the same name as the class and is used to initialize objects of that class.
+
+23. What is a destructor?
+
+- A destructor is a method that is automatically invoked when an object is destroyed. The destructor also recovers the heap space that was allocated to the destroyed object. closes the files and database connections of the object. etc.
 
 
 
