@@ -102,6 +102,18 @@
 
 <h2>MERN</h2>
 
+24. What is MERN stack?
+
+- MERN stack is a full-stack development framework composed of four main technologies: MongoDB (a NoSQL database), Express.js (a backend web application framework for Node.js), React (a JavaScript library for building user interfaces), and Node.js (a JavaScript runtime environment).
+
+25. Is react library or a framework?
+
+- React is a library meanwhile ReactNative and Create-React-App are frameworks
+
+26. what is JSX ?
+
+- Syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript files.
+
 24.  what does use state do ?
 
 - Used to update the ui when the data changes
