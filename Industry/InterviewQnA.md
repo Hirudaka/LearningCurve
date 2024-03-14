@@ -100,6 +100,19 @@
 
 - A destructor is a method that is automatically invoked when an object is destroyed. The destructor also recovers the heap space that was allocated to the destroyed object. closes the files and database connections of the object. etc.
 
+<h2>MERN</h2>
+
+24.  what does use state do ?
+
+- Used to update the ui when the data changes
+
+25. what does the use effect do ?
+
+- use to implement logic all side effects or component life cycle events within a single function api
+
+26. What does the UseRef do ?
+
+- grab html elements from the DOM. Mutable object that keeps the reference between renders . Used when u hv a value that change but noneed to rerender ui
 
 
 
