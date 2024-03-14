@@ -110,9 +110,13 @@
 
 - React is a library meanwhile ReactNative and Create-React-App are frameworks
 
-26. what is JSX ?
+26. What is JSX ?
 
 - Syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript files.
+
+27. What is npm ?
+
+- npm (Node Package Manager) is a package manager for JavaScript that comes bundled with Node.js. It allows developers to install, manage, and share reusable code packages
 
 24.  what does use state do ?
 
